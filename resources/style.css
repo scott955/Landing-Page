@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,300&display=swap');
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.header-text {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 600;   
+}
+
+.right-links {
+    display: flex;
+    gap: 40px;
+}
+
+.right-links a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    padding-top: 80px;
+    background-color: #1f2937;
+    
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding-left: 150px;
+    padding-right: 20px;
+    width: 635px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    color:#f9faf8;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup {
+    background-color: #3882f6;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.hero-image {
+    width: 450px;
+    height: 192px;
+    flex-shrink: 0;
+    margin-right: 150px;
+    background-color: rgba(184, 171, 171, 0.912);
+}
+
+/* Information section */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 100px;       
+}
+
+.random {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    width: 210px;
+    font-size: 16px;
+    
+}
+
+.image img {
+    width: 210px;
+    height: 210px;
+    border-radius: 10px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    width: 100vw;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    align-items: center;
+}
+
+.quote-text {
+    width: 1150px;
+
+}
+
+
+.quote-author {
+    width: 1150px;
+    
+}

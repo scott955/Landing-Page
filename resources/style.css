@@ -14,6 +14,16 @@ header {
     align-items: center;
     padding-left: 150px;
     padding-right: 150px;
+    padding-top: 30px;
+}
+button {
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: #3882f6;
+    color: white;
+    margin-right: 75px;
 }
 
 .header-text {
@@ -71,7 +81,7 @@ header {
 }
 
 .hero-image {
-    width: 450px;
+    width: 650px;
     height: 192px;
     flex-shrink: 0;
     margin-right: 150px;
@@ -108,36 +118,88 @@ header {
 }
 
 .text {
-    width: 210px;
+    width: 150px;
     font-size: 16px;
-    
+    text-align: center;
 }
 
 .image img {
-    width: 210px;
-    height: 210px;
+    width: 150px;
+    height: 150px;
     border-radius: 10px;
+}
+
+.quote-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
-    background-color: #e5e7eb;
-    width: 100vw;
-    font-size: 36px;
-    font-weight: 100;
-    font-style: italic;
-    color: #1f2937;
+    width: 800px;    
     align-items: center;
 }
 
 .quote-text {
-    width: 1150px;
-
+    width: 790px;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
 }
 
-
 .quote-author {
-    width: 1150px;
+    width: 800px;
+    text-align: right;
+    padding-right: 100px;
+    font-weight: 900;
+    font-size: 24px;
     
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 300px;
+}
+
+.cta-title {
+    font-size: 24px;
+}
+
+.cta-text {
+    font-size: 18px;
+}
+
+.blue {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    height: 100px;
+    width: 800px;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+.cta-content div {
+    color: white;
+    margin-left: 75px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 75px;
+    background-color: #1f2937;
+    color: white;
 }
